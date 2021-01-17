@@ -15,7 +15,7 @@ background: url('{{ "header.jpg" | asset_url }}') top center no-repeat;
 ```
 becomes
 ```css
-background: url('#{'{{ "magic-header.jpg" | asset_url }}'}') top center no-repeat;
+background: url('#{'{{ "header.jpg" | asset_url }}'}') top center no-repeat;
 ```
 
 and then use the `--liquid` flag in the command:
